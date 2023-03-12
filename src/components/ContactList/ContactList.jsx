@@ -29,5 +29,5 @@ ContactList.propTypes = {
       number: PropTypes.string.isRequired,
       id: PropTypes.string.isRequired,
     })
-  ),
+  ).isRequired,
 };
